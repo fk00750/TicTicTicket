@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="sshortcut icon" href="#" />
+    <title>TicTicTicket</title>
+  </head>
+  <body class="bg-gray-200" id="title">
+    <header class=" m-2 "   id="header">
+       <div>
+          <nav class="nav m-2 flex flex-col p-4  inset-x-0  top-0 z-50 bg-blue-500">
+             <div class="flex justify-between ">
+                <h1
+                   
+                   class="font-serif text-xl  bg-slate-600 px-2 py-2 w-fit rounded text-white"
+                   >
+                   TicTicTicket <span>&#x1F6E9</span>
+                </h1>
+                <button id="toggle__button"
+                   class="w-fit px-3 rounded border text-white border-gray-800 bg-slate-600  cursor-auto">
+                   <svg
+                      class="fill-current h-3 w-3"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                      >
+                      <title>Menu</title>
+                      <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+                   </svg>
+                </button>
+             </div>
+             <!-- ---------------------- -->
+             <div  class="mt-4 ">
+                <ul id="nav__links" class="space-y-4 hidden">
+                   <li class="hover:scale-y-125 w-fit"><a href="#title" class="nav__link border-x-2 rounded-md  px-2 py-1 hover:rounded-md font-mono bg-slate-600 text-white">Home &#x1F3E1</a></li>
+                   <li class="hover:scale-y-125 w-fit"><a href="#destinationSection" class="nav__link btn_scroll_to border-x-2 rounded-md  px-2 py-1 hover:rounded-md font-mono bg-slate-600 text-white">Destinations &#x1F30F</a></li>
+                   <li class="hover:scale-y-125 w-fit"><a href="#Operations_section" class="nav__link border-x-2 rounded-md  px-2 py-1 hover:rounded-md font-mono bg-slate-600 text-white">Operations &#x1F64B</a></li>
+                   <li class="hover:scale-y-125 w-fit"><a href="#Contact_form" class="nav__link border-x-2 rounded-md  px-2 py-1 hover:rounded-md font-mono bg-slate-600 text-white">Contact Us &#x1F4E0</a></li>
+                   <li class="hover:scale-y-125 w-fit"><a href="#AboutUs" class="nav__link border-x-2 rounded-md  px-2 py-1 hover:rounded-md font-mono bg-slate-600 text-white">About Us </a></li>
+                </ul>
+             </div>
+          </nav>
+       </div>
+       <!--! --- End Of Header --- -->
+       <!-- --------------------------- -->
+       <!--? --- Slider Section --- -->
+       <div id="slider" class="m-2 bg-gray-200 ">
+         <figcaption class="absolute text-lg -mb-11 m-2 bg-slate-400 bg-opacity-40">Here is some text</figcaption> 
+         <img src="images/img_1.jpg" class="object-cover w-full"  alt="" id="slidingImg">
+         <!-- <div class="absolute top-full w-fit px-6 py-3 m-2 text-xl font-semibold bg-slate-40  bg-opacity-40 z-50">This is a Text</div> -->
+        </div>
+        <!--! --- Slider Section End --- -->
+        <!-- ------------------------------ -->
+        <!-- ------------------------------ -->
+        <!-- todo (dividing line) -->
+        <div id="dividing_line" class="flex items-center mx-4">
+          <span>&#x2708</span>
+          <hr class="border-t-gray-600 border-dashed border-2 w-full">
+          <span>&#x2708</span>
+        </div>
+    </header>
+    <!-- todo (dividing line) -->
+    <!--? --- Main Section --- -->
+    <main id="MainSection">
+    <!--? Destination Section  -->
+       <div id="destinationSection" class="m-2 mt-14 mb-10">
+          <div id="Destination_heading" class="mx-4 mb-10">
+            <h1 class="text-3xl font-serif">&#x2B50 Destinations</h1>
+            <p>Welcome to your dream destination</p>
+          </div>
+          <div id="destinations">
+            <div id="first_destination" class="bg-gray-300 rounded shadow-lg px-2 py-2 my-5">
+              <img src="/TicTicTicket/images/img_1.jpg" class="Img" alt="">
+              <div id="content">
+                <h3 class="text-xl mb-2 font-bold">Willow Creek</h3>
+                <p class="text-gray-800 text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quasi nobis fugiat adipisci cumque culpa dolorem <span class="dots">...</span>
+                  <span class="more hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit temporibus at consectetur ad doloremque assumenda aperiam impedit beatae. Omnis veniam quos blanditiis! Fuga asperiores est neque suscipit eius delectus nobis?</span>
+                </p>
+                <button id="ReadMorebtn" class="px-2 my-2 bg-red-600 more0">Read More</button>
+                <button id="BuyTicket" class="px-2 my-2 bg-green-600">Buy Ticket</button>
+              </div>
+            </div>
+            <div id="second_destination" class="bg-gray-300 rounded shadow-lg px-2 py-2 my-5">
+              <img src="/TicTicTicket/images/img_2.jpg" class="Img" alt="">
+              <div id="content">
+                <h3 class="text-xl mb-2 font-bold">Willow Creek</h3>
+                <p class="text-gray-800 text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quasi nobis fugiat adipisci cumque culpa dolorem <span class="dots">...</span>
+                  <span class="more hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit temporibus at consectetur ad doloremque assumenda aperiam impedit beatae. Omnis veniam quos blanditiis! Fuga asperiores est neque suscipit eius delectus nobis?</span>
+                </p>
+                <button id="ReadMorebtn" class="px-2 my-2 bg-red-600 more0">Read More</button>
+                <button id="BuyTicket" class="px-2 my-2 bg-green-600">Buy Ticket</button>
+              </div>
+            </div>
+            <div id="third_destination" class="bg-gray-300 rounded shadow-lg px-2 py-2 my-5 w-full">
+              <img src="/TicTicTicket/images/img_3.jpg" class="Img w-full" alt="">
+              <div id="content">
+                <h3 class="text-xl mb-2 font-bold">Willow Creek</h3>
+                <p class="text-gray-800 text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quasi nobis fugiat adipisci cumque culpa dolorem <span class="dots">...</span>
+                  <span class="more hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit temporibus at consectetur ad doloremque assumenda aperiam impedit beatae. Omnis veniam quos blanditiis! Fuga asperiores est neque suscipit eius delectus nobis?</span>
+                </p>
+                <button id="ReadMorebtn" class="px-2 my-2 bg-red-600 more0">Read More</button>
+                <button id="BuyTicket" class="px-2 my-2 bg-green-600">Buy Ticket</button>
+              </div>
+            </div>
+          </div>
+        </div>
+       <!--! destination Section End  --->
+       <hr class="border-t-gray-400">
+       <!-- ------------------------------- -->
+    <!--? Operation Section  -->
+    <div id="Operations_section" class="m-4 mt-10">
+       <div id="title" class="mx-2">
+         <h2 class="text-green-500 font-bold font-mono text-2xl"> Operations </h3>
+           <h3 class="font-mono ">Everything as simple as possible, but no simpler</h3>
+       </div>
+       <div id="operation" class="mt-10">
+         <div id="operation_button" class="flex justify-between">
+           <button data-tab="1" class="operations__tab bg-yellow-500 rounded-xl py-2 px-2 mx-2 ">Transfer Money</button>
+           <button data-tab="2" class="operations__tab bg-red-500 rounded-xl py-2 px-3 mx-2">Instant Loans</button>
+           <button data-tab="3" class="operations__tab bg-green-500 rounded-xl py-2 px-3 mx-2">Instant Closing</button>
+         </div>
+       </div>
+       <div id="" class="bg-white text-center p-5">
+         <div id="operation_1" class="operation_content content_tab-1">
+           <h5 class="text-lg my-4">Transfer money to anyone , instantly! No fees,No Bs</h5>
+           <p class="text-gray-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+         </div>
+         <div id="operation_1" class="operation_content hidden content_tab-2">
+           <h5 class="text-lg my-4">Buy a home or make your dreams come true, with instant loans.</h5>
+           <p class="text-gray-700">Home lander dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+         </div>
+         <div id="operation_1" class="operation_content hidden content_tab-3">
+           <h5 class="text-lg my-4">No longer need your account? No problem! Close it instantly. </h5>
+           <p class="text-gray-700">Dutch Plane ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+         </div>
+       </div>
+     </div>
+    <!--! Operation Section End  -->
+    <!-- -------------------------- -->
+    <!--? Contact form section  -->
+    <div id="Contact_form" class="bg-gray-300 flex flex-col m-2 rounded-md">
+      <div class="m-4 text-2xl">
+      <h3 class="block">Contact Form</h3>
+      </div>
+      <form action="#" class="flex flex-col m-4 space-y-5">
+        <label for="fname">First Name</label>
+        <input class="p-2" type="text" id="firstname" name="name" placeholder="Your First Name ...">
+        <label for="lname">Last Name</label>
+        <input class="p-2" type="text" id="lastname" name="name" placeholder="Your last  Name ...">
+        <label for="fname">Your Email</label>
+        <input class="p-2" type="email" id="email" name="Email" placeholder="Your Email ...">
+        <div class="flex flex-col  w-2/3 ">
+        <label for="Querry" class="flex flex-wrap my-4 w-full">Why do you want to contact us</label>
+        <div class="flex justify-between">
+        <label for="suggestion">Suggestion</label>
+        <input type="radio" name="querry" id="querry" value="suggestion" class="">
+        </div>
+        <div class="flex justify-between">
+          <label for="suggestion">Complaint</label>
+          <input type="radio" name="querry" id="querry" value="complaint" class="">
+        </div>
+        <div class="flex justify-between">
+          <label for="suggestion">Suggestion</label>
+          <input type="radio" name="querry" id="querry" value="suggestion" class="">
+        </div>
+        </div>
+        <label for="brief">Tell Us Briefly ...</label>
+        <textarea name="" id="" cols="30" rows="5" placeholder="Write down here ..."></textarea>
+      </form>
+      <div class="bg-gray-400 p-4 m-4">
+      <h5 class="text-base font-serif font-bold m-4">...Or You can also Contact Us directly</h5>
+      <span>Our Phone Number : <br> +0017548210158</span>
+      <br>
+      <span>Our Email : <br> TicTicTicket@mail.com</span>
+      </div>
+    </div>
+    <!--! contact us form section end  -->
+    <!-- ------------------------------ -->
+      <!--? AboutUs Section  -->
+      <div id="AboutUs" class="bg-gray-700 text-white text-center m-2 rounded-md p-4">
+        <h1 class="text-xl my-2">AboutUs</h1>
+        <p class="py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, illo.</p>
+        <p>Dora ipsum dolor sit amet consectetur adipisicing elit. Nobis, natus perspiciatis? Vitae non, laudantium amet recusandae accusamus laboriosam quos nostrum cupiditate dolores.</p>
+      </div>
+      <!--! About Us Section End  -->
+    </main>
+    <footer class=" text-white">
+      <span class="mx-2">&copy; footer</span>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
